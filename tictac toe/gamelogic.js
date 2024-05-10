@@ -33,10 +33,15 @@ function boxClicked(e) {
             winning_blocks.map( box => boxes[box].style.backgroundColor=winnerIndicator)
             return
         }
+        // const allOccupied = spaces.every(spaces => spaces !== undefined );
+        // if(allOccupied){
+        //     return "It's a draw!"
+        // }
 
         currentPlayer = currentPlayer == X_TEXT ? O_TEXT : X_TEXT
+    } 
     }
-}
+
 
 const winningCombos = [
     [0,1,2],
