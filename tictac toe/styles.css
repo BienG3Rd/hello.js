@@ -6,7 +6,7 @@
 
 :root {
     --orange: #F2C14E;
-    --winning-blocks: #2d414b;
+    --winning-blocks: #a1a6a9;
 }
 
 body {
@@ -17,6 +17,7 @@ h1{
     font-size: 54px;
     text-transform: uppercase;
     text-align: center;
+    text-shadow: 5px 5px 10px #333 ;
 }
 h2{
     font-size: 45pxpx;
@@ -33,6 +34,8 @@ h2{
     align-items: center;
     flex-direction: column;
     background-color: #37505c;
+    object-fit: cover;
+    background-image: url("https://media.istockphoto.com/id/1060735836/photo/abstract-tic-tac-toe-game-competition-xo-win-challenge-concept-on-black-board.jpg?s=1024x1024&w=is&k=20&c=EVKuUFeJKtCk6XS4yb5C5T6CKag_V_U8IUMwxCbm6ew=");
     
 }
 
@@ -50,8 +53,9 @@ h2{
     justify-content: center;
     color: var(--orange);
     font-size: 120px;
-    border-right: 2px solid;
-    border-bottom: 2px solid;
+    text-shadow: 5px 5px 10px whitesmoke;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
     cursor: pointer;
 }
 .box:nth-child(3n) {
